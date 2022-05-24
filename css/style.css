@@ -1,0 +1,1244 @@
+
+*{
+	margin: 0px;
+	padding:0px;
+}
+
+html{
+	
+	width: 100%;
+	background-position: fixed !important;
+	max-width: 100%;
+}
+body{
+	font:90% calibri,san-serif;
+	text-align: center;
+ background-position: fixed !important;  
+  width: 100%;
+ 
+   margin-top:8vh; 
+}
+
+@font-face
+{
+	font-family: Bamini;
+	src:url(Bamini.TTF);
+}
+
+div.container{
+	width:100%;
+	height:auto;
+	  background-position: fixed !important;  margin:0;
+}
+
+div#wrapersearch{
+
+	font-size: 20px;
+    margin-top:8%;
+	float: right;
+	max-width:100%;
+	width:100%;
+}
+div#wraper{
+     
+	font-size: 20px;
+    margin-top:0;
+	float: right;
+	max-width:100%;
+	width:100%;
+}
+
+div#wraper p{
+   
+	color:black;
+	font-size:1vw;
+	margin-top: 30px;
+	text-align:justify;
+}
+
+div#nav-bar 
+{
+background-color:#61c4ff;
+background-position: fixed;
+       height:auto;
+       width:100%;
+ 
+position:fixed;
+top:0;
+ 
+
+-webkit-box-shadow: 0px 13px 9px -6px rgba(210,219,208,0.76); 
+box-shadow: 0px 13px 9px -6px rgba(210,219,208,0.76);
+}
+div #nav-bar ul li {
+ float:left;
+list-style-type: none;
+margin:3% 6.5%;
+font-size:25px;
+}
+div #nav-bar ul li a
+{
+	text-decoration: none;
+	color:white;
+	font-size:18px;
+	font-weight: bold;
+	
+}
+div ul li img{
+    
+    width:28px;
+    color:red;
+}
+.logo{
+    padding:20px 0;
+    color:white;
+}
+	.login_form
+	{
+	    margin:10px 0px 0px 0px;
+	}
+	.change_pass_form
+	{
+	     margin:60px 0px 0px 0px;
+	}
+
+.logo_jamalian
+{
+    margin:70px 0px 0px 0px;    
+}
+.logo_jamalian_new
+{
+    margin:30px 0px 0px 0px;
+}
+/*******admin login page********/
+
+div#wraper h3 
+{
+color: blue;
+margin-top: 30px;
+font-size: 20px;
+margin-left: 90px;
+}
+
+
+.name {
+ height: 30px;
+	width: 180px;
+    border: none;
+	outline: none;
+	margin-top: 20px;
+	color: black;
+	font-size: 15px; 
+	background-image: url(../img/bg.jpg);
+    border-bottom: 1px solid blue;
+    background: transparent;
+}
+.pass{
+    height: 30px;
+	width: 220px;
+    border: none;
+	outline: none;
+	margin-top: 20px;
+	color: black;
+	font-size: 15px; 
+	background-image: url(../img/bg.jpg);
+    border-bottom: 1px solid blue;
+    background: transparent;
+
+}
+::placeholder
+{
+	color: black;
+	font-size:13px;
+}
+lable{
+
+	color:black;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+input lable {
+	display: block;
+}
+button:focus{
+outline:1px solid #fff;
+outline-offset:-1px;
+}
+i:focus{
+    outline:1px solid #fff;
+outline-offset:-1px;
+}
+
+.btn{
+
+	display: block;
+	margin:-26px auto;
+	height: 25px;
+	width: 30px;
+	border-radius:2;
+	background-color:white;
+	}
+	.btn1{
+   position:absolute;
+   right:30px;
+	height: 25px;
+	width:10%;
+    color:;
+	border:0;
+     background-color:;
+	   display:none;
+	    
+	}
+	.btn2{
+
+	display: block;
+	margin:26px auto;
+	padding: 7px;
+	width: 160px;
+	border-radius:6px;
+background-color: #61c4ff;
+	 color:white;
+	 font-weight: bold;
+	 border-style: none;
+	 cursor: progress;
+	}
+	.search_box
+	{
+		width: 20px;
+
+	}
+	.search_align
+	{
+       width:100%;
+     
+       margin-top: -40px;
+	}
+
+
+.alog{
+	margin:0px;
+}
+.error{
+
+	color: #f4511e;
+	font-size: 15px;
+	margin:2.5% 0;
+}
+.success{
+	color: green;
+	font-size: 15px;
+	margin:2.5% 0;
+	text-align:center;
+}
+
+/***********************************admin home page**************************************/
+
+
+div .alog .record{
+
+
+	background-color:#61c4ff;
+	height: 200px;
+	width: 300px;
+	list-style-type: none;
+	margin:80px 0px 0px 35px;
+	line-height: 50px;
+	border-radius: 5px;
+
+}
+
+div .alog ul li{
+
+color:black;
+font-weight: 600;
+
+}
+
+div .alog .num{
+
+color:white;
+display: inline-block;
+
+}
+
+/***********************************view student page**************************************/
+
+div.alog{
+    width:100%;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th{
+ 
+}
+th, td {
+  padding: 8px;
+  text-align: left;
+
+  border-bottom: 1px solid #ddd;
+}
+td
+{
+     margin:20px 0px 0px 0px;
+}
+div.alog table{
+
+
+	background-color: white;
+
+	margin-top: 40px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+
+div.alog table th{
+width:100%;
+color: white;
+font-size: 13px;
+background-color: black;
+height: 40px;
+letter-spacing: 2px;
+}
+div.alog table td{
+
+line-height: 20px;
+font-family: arial;
+font-family: Bamini;
+ padding:0 3%;
+font-size: 20px;
+
+}
+
+div.alog table td a{
+
+	text-decoration: none;
+	color:black;
+	border-radius: 7px;
+    float:center;
+  
+}
+
+.search_table{
+
+background-color:red;
+}
+.textarea{
+
+height: 80px;
+margin: 20px 0px 0px -40px;
+width: 250px;
+}
+input[type="file" i] {
+width: 180px;
+margin-left: 0px;
+margin-top: 10px;
+
+}
+input[type="text"] {
+width: 220px;
+}
+input[type="password"] {
+width: 220px;
+}
+input[type="email"] {
+width: 220px;
+}
+
+.message{
+	height: 25px;
+width: 200px;
+border: 2px solid blue;
+margin:0px 0px 0px 100px;
+border-radius: 10px;
+}
+ 
+.search-input{
+    width:100%;
+    height:40px;
+    display:inline-block;
+}
+.search_align input[type="text"] {
+width: 98%;
+height:30px;
+border:none;
+	outline: none;
+	margin:auto;
+	color: white;
+	font-size: 20px; 
+    border-bottom: 1px solid blue;
+    
+}
+.search_align input[type="text"]:focus {
+ background-color:#fff;   
+ transition:.5s;
+ width:96%;
+ height:35px;
+  border:2px solid #eee;
+ border-radius:1%;
+ color:#234;
+ position:absolute;
+ top:0;
+ left:0;
+ margin:2% 1.5%;
+ position:fixed;
+ 
+ 
+}
+    
+    
+
+
+strong{
+	color: blue;
+	font-size: 22px;
+	
+}
+div.alog .table{
+    background: none;
+	margin-left: 50px;
+	margin-top: 10px;
+	
+}
+
+div.alog .table .trow .thead{
+
+	background: none;
+	color: blue;
+	font-size: 18px;
+}
+
+div.alog .table .trow .tdata{
+
+	border-bottom:none;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/**************side navebar*********************/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color:#61c4ff ;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.slidenav li{
+display:block;
+}
+.sidenav li a {
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-size:15px;
+  color:white;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  color: black;
+  right: 25px;
+  font-size: 25px;
+  margin-left: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 13px;}
+  
+}
+.fa .fa-arrow-left
+{
+    
+}
+.pro_name
+{
+    margin:0px 0px 0px 0px;
+    font-size:20px;
+}
+/*********************newsfeed***************/
+.container .newsfeed
+{
+  height:auto;
+  width: 100%;
+  background-position:cover;
+  margin: 0px 0px 0px;
+  border-radius:3px;
+}
+.post_name
+{
+   float:left;
+   display:inline-block;
+    color:black; 
+	font-weight: bold;
+	font-size: 20px;
+   margin-top:7%;
+    text-align: left;
+    color:#234;
+    
+
+}
+.post_date
+{
+	font-size: 15px;
+	display:inline-block;
+	margin-right:2%;
+	float:right;
+	margin-top:8%;
+	color:#789;
+}
+.post_discription
+{
+	margin:0 auto;
+	text-align:justify;
+	margin:3% 3%;
+	font-size: 17px;
+	color:#567;
+}
+.Caption
+{
+	padding-right:310px;
+	font-size: 20px;
+	color:#123;
+}
+hr
+{
+margin-top:10px;
+margin-bottom:0vh;
+width: 100%;
+height:1.5px;
+background-color:#b4e3ff;
+border:0;
+opacity:1;
+border-radius:50%;
+ 
+}
+.coment_bar
+{
+    margin-top:10px;
+margin-bottom:0vh;
+width: 100%;
+height:1.5px;
+
+
+
+}
+.userdetail{
+    margin-top:.5%;
+    width:100%;
+    height:12vh;
+    background-color:#fff;
+   
+}
+/**********************search_eny***********************/
+
+.image_show
+{
+ display:none;
+
+ 
+}
+ 
+ 
+.dp
+{
+    width:50px;
+    height:50px;
+    margin:2% 4% 2% 3%;
+    float:left;
+    border-radius:50%;
+}
+.profile_name
+{
+    float:left;
+    margin:5%  2% 5% 2%;
+    color:#000;
+}
+
+/***************************icon style***********************/
+ 
+ .fa-user
+{
+
+	font-size: 32px;
+    float:right;
+    position:absolute;
+    color:white;
+    right:10%;
+}
+.btn1  .fa-search
+{
+font-size: 20px;
+ 
+    
+}
+.fa-book
+{
+	font-size: 35px;
+	margin-left:;
+    line-height: 50px;
+}
+.fa-link
+{
+	font-size: 35px;
+	margin-left:;
+    line-height: 50px;
+}
+.cuser
+{
+	float:left;
+padding-right:10px;
+margin:30px 0px 0px 0px;
+}
+.cusers{
+    	float:left;
+padding-right:5px;
+    display:inline-block;
+    margin:6% 2%;
+    
+}
+.cname
+{
+	font-size:18px;
+ float:left;
+margin:30px 0px 0px 0px;
+	font-weight: bold;
+}
+.cmsg{
+     float:left;
+	  text-align:justify;
+	  margin:20px 0px 0px 0px;
+}
+.sbookname
+{
+	float:left;
+	left:70px;
+	font-size:30px; 
+	text-align:justify;
+    letter-spacing:1%;
+    width:80%;
+     text-transform:;
+margin-top:5%;
+border:0;
+}
+.devloper_back
+{
+	background-color:#c6c5c54f;
+	height: 150px;
+	width: 100%;
+margin-top:-20%;
+}
+.devloper_back2
+{
+	background-color: #c6c5c54f;
+	height: 120px;
+	width: 100%;
+	margin-top: 30px;
+
+}
+div.prof
+{
+	height: 200px;
+	width: 170px;
+display:inline-block;
+    margin-top:-15%;
+border-radius:3%;
+ 
+    background-color: red;
+ background-position:top;
+background-size:cover;
+
+-webkit-box-shadow: 0px 13px 25px -6px rgba(210,219,208,0.76); 
+box-shadow: 0px 13px 25px -6px rgba(210,219,208,0.76);
+}
+.devloper_blog
+{
+	margin:1%;
+	font-size: 30px;
+}
+.devloper_content
+{
+	margin:1%;
+}
+
+.achivements
+{
+	height: 300px;
+	width: 100%;
+}
+
+/******************popup**************************/
+ 
+ 
+.column .align
+{
+    margin:0px 0px 0px 50px;
+    float:right;
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  display:block;
+  width:auto ;
+}
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 6%;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+ 
+
+/* Position the "next button" to the right */
+ 
+
+
+
+.img{
+  margin-bottom: -4px;
+ 
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+ 
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+
+.technical
+{
+	color:red;
+	font-weight: bold;
+	margin:30px 0px 0px 0px;
+	text-align: center;
+	font-size: 30px;
+}
+.togle
+{
+    background-color:gray;
+}
+/********************competition page*****************************/
+
+.technical
+{
+	color:black;
+	font-weight: bold;
+	margin:30px 0px 0px 0px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.togle
+{
+	display: block;
+	margin:0 auto;
+	margin-top:30px;
+	padding: 7px;
+	width: 280px;
+	font-size: 17px;
+	border-radius:6px;
+background-color:#61c4ff;
+	 color:#fff;
+	 font-weight: bold;
+	 border-style: none;
+	 cursor: progress;
+}
+div.content{
+    margin-top:5%;
+width:100%;
+    background-color:#eee;
+    border-radius:3%;
+}
+.ppt .content p{
+    font-size:20px;
+    color:red;
+    display:block;
+    
+}
+div.content img{
+    margin:1% 4vh;
+    width:40vh;
+    height:25vh;
+    position:center;
+    margin-bottom:0;
+    border-radius:100%;
+}
+div.content .contentp p{
+    font-size:20px;
+}
+/****************profile_page**************************/
+
+.profile_background
+{
+
+width: 100%;
+height: 150px;
+background-color:#55f0f22b;
+margin:-53px 0px 0px 0px;
+}
+.profile_background h2
+{
+    padding: 25px;
+  
+}
+.profile
+{
+	border-radius: 100%;
+	height:95px;
+	width:95px;
+	margin:10px 0px 0px 0px;
+	border-bottom:5px solid  #666;
+    background: rgba(100,100,100,0.2);
+}
+
+
+.usname p
+{
+	font-size: 25px;
+	font-weight:;
+    margin:50px 0px 0px 25%;
+}
+.shead
+{
+	font-size: 20px;
+	color: #675c5c;
+ 
+}
+
+
+.ublog
+{
+	font-size: 20px;
+	border-radius: 5px;
+	background-color:#55f0f22b;
+	width: 70%;
+margin:4% 0;
+text-align:center;
+}
+.ublog p
+{
+	color:black;
+	text-align: center;
+	
+	line-height: 40px;
+    
+}
+.ubirdth
+{
+	font-size: 20px;
+	border-radius: 5px;
+	background-color:#55f0f22b;
+	width: 70%;
+    margin:4% 0;
+}
+.ulocation
+{
+	font-size: 22px;
+	border-radius: 5px;
+	background-color:#55f0f22b;
+	width: 70%;
+     margin:4% 0;
+}
+.ubirdth p
+{
+color:black;
+text-align: center;
+line-height: 40px;
+}
+.ulocation p
+{
+color:black;
+text-align: center;
+line-height: 40px;
+
+}
+
+/*****************Edit profile page****************/
+
+
+
+
+
+
+.epro_background
+{
+
+width: 100%;
+height: 60px;
+background-color:#55f0f22b;
+margin:-50px 0px 0px 0px;
+}
+.epro_background h2
+{
+	float: left;
+	margin:20px 0px 0px 30px;
+}
+.btn3{
+
+	display: block;
+   position:absolute;
+   top:3.5%;
+   right:6%;
+	font-size: 18px;
+   color:black;
+	 font-weight: bold;
+	 border-style: none;
+	 cursor: progress;
+	 	background-color:#55f0f22b;
+	 	background-color: transparent;
+}
+.plable
+{
+	float: left;
+	margin:0px 0px 0px 30px;
+	font-size: 23px;
+	
+}
+
+
+.pinput
+{
+	
+    margin:30px 0px 0px -4px;
+    width:200px;
+     border: none;
+    outline: none;
+   color: black;
+	font-size: 15px; 
+	background-image: url(../img/bg.jpg);
+    border-bottom: 1px solid black;
+    background: transparent;
+    height: 30px;
+}
+.fa-user
+{
+
+	font-size: 28px;
+    padding: 0px 0px 0px -40px;
+}
+.pfile
+{
+	margin:0px 0px 0px -40px;
+}
+/*******************settings page*********************/
+.set_nav
+{
+  
+}
+.settings_background
+{
+    width: 100%;
+height: 70px;
+background-color:#55f0f22b;
+margin:-50px 0px 0px 0px;
+}
+.settings_background p
+{
+    float:left;
+    margin:2px 72px 0px 10px;
+    font-size:21px;
+    font-weight:bold;
+}
+.settings_background a
+{
+    float:left;
+    margin:25px 24px 0px 20px;
+    font-size:21px;
+    font-weight:bold;
+}
+.set_nav li
+{
+list-style-type:none;
+margin:25px 0px 0px 0px;
+line-height:40px;
+text-align:justify;
+ 
+}
+.set_nav li:hover
+{
+    
+}
+.set_nav  li a
+{
+color:black;
+text-decoration:none;
+font-weight:bold;
+font-size:19px;
+}
+
+.set_nav .fa-pencil-square-o
+{
+        font-size:24px;
+    margin:10px 0px 0px 20px;
+}
+.set_nav .fa-key
+{
+    font-size:24px;
+    margin:10px 0px 0px 20px;
+}
+
+.set_nav  .fa-comments-o
+{
+    font-size:24px;
+     margin:10px 0px 0px 20px;
+}
+.set_nav  .fa-sign-out
+{
+    font-size:24px;
+    margin:10px 0px 0px 50px;
+}
+.fa-sign-out:before {
+    content: "\f08b";
+    margin: 0px 0px 0px 14px;
+}
+.set_nav .fa-plus-circle
+{
+    font-size:24px;
+    margin:0px 0px 0px 10px;
+}
+.set_nav .fa-unlock-alt
+{
+    font-size:24px;
+    margin:0px 0px 0px 10px;
+}
+.set_nav .fa-sign-out
+{
+    font-size:24px;
+    margin:0px 0px 0px 10px;
+}
+
+
+/* swiper content */
+
+
+
+/********************tabs in serarch page*************************/
+/* Style the tab */
+ 
+.tab {
+  overflow: hidden;
+  border-top: 0.5px solid #ccc;
+  border-bottom: 0.5px solid #ccc;
+   background-color:inherit;
+
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+ background-color:white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 20px;
+  transition: 0.3s;
+  font-size: 17px;
+  font-weight:bold;
+}
+
+/* Change background color of buttons on hover */
+
+/* Create an active/current tablink class */
+.tab button.active {
+ 
+}
+
+/* Style the tab content */
+.tabcontent {
+ padding: 6px 34px;
+  border:20px 0px 0px 30px;
+  background-color:#fff;
+  width:87%;
+  height:56vh;
+  overflow:scroll;
+   
+}
+.tabcontent h3
+{
+float:left;
+margin:10px 0px 0px 0px;
+
+}
+.tabcontent .card  p
+{
+text-align:justify;
+margin:20px 0px 0px 0px;
+line-height:30px;
+background-color:#fff;
+width:100%;
+font-size:15px;
+
+}
+.tabcontent .card
+
+{
+   margin:20px 0px 0px -20px; 
+    padding: 6px 34px;
+    border-radius:5px;
+-webkit-box-shadow: 1px 1px 11px 2px rgba(166,153,166,1);
+-moz-box-shadow: 1px 1px 11px 2px rgba(166,153,166,1);
+box-shadow: 1px 1px 11px 2px rgba(166,153,166,1);
+    
+}
+    
+/* fixed table head */
+tr.first_row {
+overflow:hidden;
+top:1%;
+
+}
+ tr.first_row th:nth-of-type(2){
+color:#fff;F
+text-align:left;
+padding:0 35% 0 10%;
+ }
+
+
+/*custo file upload*/
+.custom-file-upload {
+    border: 0.5px solid #ccc;
+    display: inline-block;
+    
+    padding: 6px 12px;
+border-radius:3%;
+ 
+-webkit-box-shadow: 0px 13px 9px -6px rgba(210,219,208,0.76); 
+box-shadow: 0px 13px 9px -6px rgba(210,219,208,0.76);
+    cursor: pointer;
+}
+
+
+
+
+
+
+#preloader
+{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99;
+}
+#status
+{
+    
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(load.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
